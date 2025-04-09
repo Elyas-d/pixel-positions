@@ -15,18 +15,19 @@
             <div><a href="#">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="pixel positions">
                 </a></div>
-            <div>
+            <div class="font-bold space-x-2">
                 <a href="#">jobs</a>
                 <a href="#">careers</a>
                 <a href="#">salaries</a>
                 <a href="#">companies</a>
             </div>
-            <div>
+            <div class="inline-flex items-center gap-x-2">
+                <span class="w-2 h-2 bg-blue-500 inline-block"></span>
                 <a href="#">post a job</a>
             </div>
         </nav>
 
-        <main class="mt-10 max-w-[986px]">
+        <main class="mt-10 max-w-[986px] m-auto">
             {{ $slot }}
         </main>
     </div>
