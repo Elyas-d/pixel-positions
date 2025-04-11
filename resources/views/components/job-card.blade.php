@@ -11,6 +11,6 @@
             <x-tag>tag</x-tag>
             <x-tag>tag</x-tag>
         </span>
-        <img src="https://placehold.co/42*42" class="rounded-xl">
+        <img src="https://placehold.co/42/42" class="rounded-xl">
     </div>
 </div>
