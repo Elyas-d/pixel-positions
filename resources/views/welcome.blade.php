@@ -22,9 +22,9 @@
                 <x-tag class="px-4 py-1">Tag</x-tag>
             </div>
         </section>
-        <section class="flex flex-col">
+        <section class="flex flex-col space-y-6">
             <x-s-heading>Recent-Jobs</x-s-heading>
-            <div class="mt-6 space-y-6">
+            <div class="space-y-6">
                 <x-job-wcard></x-job-wcard>
                 <x-job-wcard></x-job-wcard>
                 <x-job-wcard></x-job-wcard>
