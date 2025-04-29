@@ -17,14 +17,14 @@
     --text : 
     --paragraph : 
 }
-
+/* 
 
 @layer base {
     button {
         @apply bg-amber-200 text-3xl
     } 
 
-} 
+}  */
 
 body{
     background-color: var(--backgroud);
