@@ -10,3 +10,23 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+:root{
+    --backgroud : #060606;
+    --forground : 
+    --text : 
+    --paragraph : 
+}
+
+
+@layer base {
+    button {
+        @apply bg-amber-200 text-3xl
+    } 
+
+} 
+
+body{
+    background-color: var(--backgroud);
+}
+

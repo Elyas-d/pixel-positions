@@ -1,4 +1,4 @@
-<div {{ $attributes->merge(['class' => 'flex flex-row bg-white/10 rounded-lg p-3 gap-x-3 border border-trasparent hover:border-blue-700 group transition-colors duration-300']) }}>
+<x-panel class="flex flex-row gap-x-3">
     <div>
         <x-company-logo :width="90"></x-company-logo>
     </div>
@@ -9,8 +9,8 @@
         <p class="text-sm text-gray-400 mt-auto">Full Time - from $60,000</p>
     </div>
     <div>
-        <x-tag>Tag</x-tag>
-        <x-tag>Tag</x-tag>
-        <x-tag>Tag</x-tag>
+        <x-tag size="small">front-end</x-tag>
+        <x-tag size="small">full-stack</x-tag>
+        <x-tag size="small">back-end</x-tag>
     </div>
-</div>
+</x-panel>

@@ -10,16 +10,16 @@
         </section>
         <section class="flex flex-col">
             <x-s-heading>Tags</x-s-heading>
-            <div class="justify-center mt-6 space-x-1">
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
-                <x-tag class="px-4 py-1">Tag</x-tag>
+            <div class="justify-start mt-6 flex flex-wrap gap-2 w-full">
+                <x-tag size="base">API Tester</x-tag>
+                <x-tag size="base">Web Developer</x-tag>
+                <x-tag size="base">Front-end Developer</x-tag>
+                <x-tag size="base">Back-end Developer</x-tag>
+                <x-tag size="base">Full-stack Developer</x-tag>
+                <x-tag size="base">System Engineer</x-tag>
+                <x-tag size="base">SOC Analyst</x-tag>
+                <x-tag size="base">Cloud Engineer</x-tag>
+                <x-tag size="base">It Support Specialist</x-tag>
             </div>
         </section>
         <section class="flex flex-col space-y-6">
