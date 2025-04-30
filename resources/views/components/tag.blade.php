@@ -1,4 +1,4 @@
-@props(['size'=>'base'])
+@props(['tag','size'=>'base'])
 
 @php
 
@@ -14,4 +14,4 @@
 @endphp
 
 <a
-    {{ $attributes(['class' => $classes]) }}>{{ $slot }}</a>
+    {{ $attributes(['class' => $classes]) }} href="/tags/{{ strtolower($tag->name) }}">{{ $tag->name }}</a>
