@@ -27,7 +27,7 @@
             <x-s-heading>Recent-Jobs</x-s-heading>
             <div class="space-y-6">
                 @foreach ($jobs as $job)
-                    <x-job-wcard :$job></x-job-wcard>
+// the:$job is short-hand for :job="$job" because they have the same name                    <x-job-wcard :$job></x-job-wcard>
                 @endforeach
             </div>
         </section>
