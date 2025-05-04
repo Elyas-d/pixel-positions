@@ -9,7 +9,7 @@
     @vite(['resources/js/app.js'])
 </head>
 
-<body class="bg-slate-900 text-white font-bold">
+<body class="bg-slate-900 text-white font-bold pb-20">
     <div class="px-10">
         <nav class="flex justify-between items-center border-b border-white/10 py-2 space-x-6">
             <div><a href="#">
@@ -21,10 +21,20 @@
                 <a href="#">Salaries</a>
                 <a href="#">Companies</a>
             </div>
-            <div class="inline-flex items-center gap-x-2">
-                <span class="w-2 h-2 bg-blue-500 inline-block"></span>
-                <a href="#">Post a job</a>
-            </div>
+            @auth
+                <div class="inline-flex items-center gap-x-2">
+                    <span class="w-2 h-2 bg-blue-500 inline-block"></span>
+                    <a href="/jobs/create">Post a job</a>
+                </div>
+            @endauth
+
+            @guest
+                <div class="font-bold space-x-2">
+                    <a href="/register">Sign Up</a>
+                    <a href="/login">Log In</a>
+                </div>
+            @endguest
+
         </nav>
 
         <main class="mb-5 max-w-[986px] m-auto">
