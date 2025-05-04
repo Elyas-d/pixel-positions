@@ -25,6 +25,7 @@
                 <div class="inline-flex items-center gap-x-2">
                     <span class="w-2 h-2 bg-blue-500 inline-block"></span>
                     <a href="/jobs/create">Post a job</a>
+                    <a href="/logout" class="border-l border-white/50 pl-2">Log Out</a>
                 </div>
             @endauth
 
