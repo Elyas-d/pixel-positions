@@ -3,7 +3,7 @@
         <section class="text-center">
             <h1 class="font-bold text-4xl mt-10">Let's Find You A Great Job</h1>
             <x-forms.form action="/search" class="mt-6">
-                <x-forms.input :label="false" name="q" placeholder="Web Developer..."/>
+                <x-forms.input :label="false" name="q" placeholder="Web Developer..." />
             </x-forms.form>
         </section>
         <section class="w-full mt-10">
@@ -26,7 +26,8 @@
             <x-s-heading>Recent-Jobs</x-s-heading>
             <div class="space-y-6">
                 @foreach ($jobs as $job)
-// the:$job is short-hand for :job="$job" because they have the same name                    <x-job-wcard :$job></x-job-wcard>
+                    {{-- the:$job is short-hand for :job="$job" because they have the same name --}}
+                    <x-job-wcard :$job></x-job-wcard>
                 @endforeach
             </div>
         </section>

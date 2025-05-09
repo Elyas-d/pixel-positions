@@ -12,11 +12,11 @@
 <body class="bg-slate-900 text-white font-bold pb-20">
     <div class="px-10">
         <nav class="flex justify-between items-center border-b border-white/10 py-2 space-x-6">
-            <div><a href="#">
+            <div><a href="/">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="pixel positions">
                 </a></div>
             <div class="font-bold space-x-2">
-                <a href="#">Jobs</a>
+                <a href="/">Jobs</a>
                 <a href="#">Careers</a>
                 <a href="#">Salaries</a>
                 <a href="#">Companies</a>
