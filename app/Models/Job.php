@@ -10,6 +10,8 @@ class Job extends Model
     /** @use HasFactory<\Database\Factories\JobFactory> */
     use HasFactory;
 
+    protected $guarded = [];
+
     public function tag(string $name){
         $tag = Tag::firstOrCreate(['name'=>$name]);
         $this->tags()->attach($tag);
