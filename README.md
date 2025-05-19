@@ -63,3 +63,52 @@ php artisan migrate --seed
 # Serve the app
 php artisan serve
 ```
+🧪 Running Tests
+```
+php artisan test
+```
+🔐 Security Highlights
+
+    Secure user authentication (Laravel Sanctum)
+
+    Password encryption
+
+    Input validation/sanitization
+
+    Rate limiting on key endpoints
+
+📈 Roadmap / Planned Features
+
+- Candidate profile pages
+
+- Apply to job functionality
+
+- Employer dashboards
+
+- Admin panel
+
+- Email notifications & scheduling
+
+- Social login (GitHub, Google)
+
+🤝 Contributing
+
+Contributions are welcome! To get started:
+
+    Fork the repo
+
+    Create a new branch
+
+    Commit your changes
+
+    Open a Pull Request
+
+Please follow the Code of Conduct and open an issue for major changes.
+
+💬 Contact
+
+Author: Elyas Damenu
+Email: elyasdamenu@gmail.com
+GitHub: @Elyas-d
+
+> Designed with ❤️ using Laravel — because job hunting should be fast, smooth, and beautiful.
