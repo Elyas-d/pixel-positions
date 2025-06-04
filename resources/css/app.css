@@ -13,9 +13,9 @@
 
 :root{
     --backgroud : #060606;
-    --forground : 
-    --text : 
-    --paragraph : 
+    --foreground: #ffffff;
+    --text: #e5e5e5;
+    --paragraph: #cccccc;
 }
 /* 
 
