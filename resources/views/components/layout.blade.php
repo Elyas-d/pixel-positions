@@ -29,7 +29,7 @@
                     <form method="POST" action="/logout">
                         @csrf
                         @method('DELETE')
-                        <button>Log Out</button>
+                        <button class="border border-l-white/10">Log Out</button>
                     </form>
                 </div>
             @endauth
